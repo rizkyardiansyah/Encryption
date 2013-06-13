@@ -1,4 +1,3 @@
-
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -13,6 +12,7 @@ public class Encryption {
   public static void main(String[] bluesLegend){
 		// put your input text here!
 		String inputText = "Eric Clapton";
+		// final encryption should be like this
 		System.out.println(encrypt(inputText));
 	}
 	
