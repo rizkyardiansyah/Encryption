@@ -21,7 +21,7 @@ public class Encryption {
 
         try {
             MessageDigest md = MessageDigest.getInstance("MD5");
-            byte[] hash = md.digest(plainText.getBytes("UTF-8")); //converting byte array to Hexadecimal 
+            byte[] hash = md.digest(plainText.getBytes("UTF-8"));
             StringBuilder sb = new StringBuilder(2 * hash.length);
 
             for (byte b : hash) {
